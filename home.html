@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SASKE Company</title>
+    <link rel="stylesheet" type="text/css" href="../statics/home.css">
+    <link href="bootstrap.min.css" type="text/css" rel="stylesheet">
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="s.js"></script>
+    <script>
+        $(document).ready(function(){
+                $("#nav").hide();
+                $(".intro").hide();
+                $(".intro").show(1500);
+                $("#hide").hide();
+                $(".content").hide();
+                $(".content").show(1500);
+                $(".name").hide();
+                $(".name").show(3000);                
+        $(document).ready(function(){
+            $("#show").click(function(){
+                $("#nav").show(1500);
+                $(this).hide(500);
+                $("#hide").show(500);
+            $("#hide").click(function(){
+                $("#nav").hide(1500);
+                $(this).hide(500);
+                $("#show").show(500);
+            });
+            });
+        });
+    });
+    </script>
+    </head>
+<body class="smart">
+        <div>
+        <button id="show" class="btn btn-outline-primary"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-button-wide-fill" viewBox="0 0 16 16">
+            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h13A1.5 1.5 0 0 0 16 3.5v-2A1.5 1.5 0 0 0 14.5 0h-13zm1 2h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zm9.927.427A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0l-.396-.396zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+        </svg> إظهار </button>
+        <button id="hide" class="btn btn-outline-primary"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-button-wide-fill" viewBox="0 0 16 16">
+            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h13A1.5 1.5 0 0 0 16 3.5v-2A1.5 1.5 0 0 0 14.5 0h-13zm1 2h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zm9.927.427A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0l-.396-.396zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+        </svg> إخفاء </button> 
+    </div>
+    <div class="nav_div">
+        <span  class="nav_span" id="nav">
+            <nav class="navbar navbar-dark bg-dark" class="nav_bar"">
+                <a class="nav-link dropdown-toggle"  class="nav_element" href="#">home</a>
+                <a class="nav_element" href="www.google.com">home</a>
+                <a class="nav-link active" class="nav_element" href="www.google.com">home</a>
+                <a class="nav_element" href="www.google.com">home</a>
+                <a class="nav-link dropdown-toggle" class="nav_element" href="#">home</a>
+            </nav>
+            <form class="search_form">
+                
+                <input class="btn btn-outline-light" class="search_b" type="button" value="search">
+
+                <br><img src="logo.png" width="50px">
+                <input class="search_box" type="text" placeholder="search">
+                <img src="logo.png" width="50px">
+            </form>
+        </span>
+    </div>
+    <div  class="intro_div">
+        <header class="intro col-sm-12">
+            <h1 style="font-size:80px;">SASKE Company</h1>
+            <h2>نصنع المعجزات في مجال التقنيه </h2>
+            <p><a href="https://wa.me/message/F7ZCA7MVWPVQF1"> واتساب </a><a href="https://www.facebook.com/sultaanpashha/"> فيس بوك </a><a href="https://www.youtube.com/channel/UCBbrlpZB22I39DSEvGx2HVQ"> قناتنا </a></p>
+        </header>
+    </div>
+    <div class="content">
+        <span class="body_span">
+            <h1> لماذا نحن </h1>
+            <hr>
+            <p>
+            <img class="name" src="name.png" width="30%">
+                <ol>
+                    <li> نهتم بأدق التفاصيل </li>  
+                    <li> نطور من أنفسنا دائماً  </li>  
+                    <li> يتوفر لدينا أحدث أجهزه الصيانه  </li>  
+                    <li> لدينا فريق عمل متخصص لكل قسم </li>  
+                    <li> نتميز بأسعارنا التنافسيه والمناسبه للجميع </li>  
+                    <li> توفير سيرفرات لإستضافة المواقع بأسعار مناسبه </li>  
+                    <li> نقوم بتقديم خدمات تصميم المواقع ورفعها علي سيرفرات خاصه </li>  
+                    <li> نوفر توصيل الإنترنت المنزلي بأسعار تنافسيه وسرعات تحميل عاليه </li>  
+                    <li> (ويندوز - أندرويد - اي او اس - ماك)نصمم برمجيات لجميع أنواع أنظمة التشغيل </li>  
+                <ol>
+            </p>
+        </span>
+    </div>
+   
+</body>
+</html>
